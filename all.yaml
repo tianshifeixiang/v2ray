@@ -1,26 +1,51 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-      port: 9002
-      server: 138.199.35.214
+    - name: "\U0001F1EB\U0001F1F7FR_1|563KB/s"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 30099
+      server: ip5.934618.xyz
       skip-cert-verify: true
-      tls: true
-      type: http
+      sni: ip5.934618.xyz
+      type: anytls
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
-      port: 19362
-      server: 51.159.225.197
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
+      port: 1080
+      server: 217.142.236.180
+      type: socks5
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+      port: 9002
+      server: 84.17.47.123
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
-      port: 9090
-      server: 185.53.129.141
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1EAIE_1|1.2MB/s"
+    - name: ❓Other_1|1.1MB/s
       port: 443
-      server: 149.88.96.12
+      server: 149.22.88.65
       skip-cert-verify: true
       tls: true
       type: http
+    - name: ❓Other_2|1.5MB/s
+      port: 443
+      server: 121.127.34.82
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E6\U0001F1FAAU_1|517KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-au-001.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-au-001.fastervpn.world
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.7MB/s"
+      password: None
+      port: 23856
+      server: 51.159.225.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
